@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .socialMediaIcon{
+        @apply h-14 hover:scale-125 ease-in-out duration-500
+    }
+}
